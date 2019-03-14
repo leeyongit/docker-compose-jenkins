@@ -64,7 +64,7 @@
 
 
 
-克隆或复制[jenkins]()目录到机器上。
+克隆或复制[jenkins](https://github.com/GAyoo0/docker-compose-jenkins.git)目录到机器上。
 
 
 在jenkins目录运行以下命令：
@@ -78,14 +78,9 @@ chmod u+x *.sh
 docker-compose up -d
 ```
 
-
-
 运行 `docker logs -f jenkins`  查看Jenkins日志。
 
-
-
 找到Jenkins Initial Password的日志，比如：
-
 
 
 ```txt
